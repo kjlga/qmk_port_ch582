@@ -10,14 +10,16 @@ on:
   workflow_dispatch:
     inputs:
       keyboard:
-        description: "Keyboard name"
+        description: "imk64"
         required: true
         type: string
       keymap:
-        description: "Specified keymap"
+        description: "bluetooth_le"
         default: "default"
         required: true
         type: string
+  watch:
+    types: [ started ]
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
