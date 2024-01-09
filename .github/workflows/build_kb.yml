@@ -10,11 +10,11 @@ on:
   workflow_dispatch:
     inputs:
       keyboard:
-        description: "imk64"
+        description: "Keyboard name"
         required: true
         type: string
       keymap:
-        description: "bluetooth_le"
+        description: "Specified keymap"
         default: "default"
         required: true
         type: string
