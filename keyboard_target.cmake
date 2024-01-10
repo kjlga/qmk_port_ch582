@@ -14,4 +14,4 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 set(keyboard "AM78-2" CACHE STRING "KB" FORCE)
-#set(keymap "bluetooth_le" CACHE STRING "KB" FORCE)
+set(keymap "bluetooth_le" CACHE STRING "KB" FORCE)
